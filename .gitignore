@@ -1,0 +1,30 @@
+# Ignore everything by default
+*
+
+# Allow specific files
+!.gitignore
+!index.js
+!package.json
+
+# Explicitly ignore certain files
+.env
+historical_wallet_log.txt
+substreams_linux_x86_64.tar.gz
+generator.json
+README.md
+LICENSE
+
+# Ignore directories
+node_modules/
+solana-snapshot-finder/
+solnos/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and log files
+*.log
+*.tmp
+*.gz
+*.tar.gz
